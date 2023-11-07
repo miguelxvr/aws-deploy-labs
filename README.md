@@ -1,3 +1,5 @@
+# Configuração de implantação automática de código em EC2 com CodeDeploy (AWS Academy)
+
 ## Passo 1: Preparar uma instância do EC2 para receber o deploy
 
 ### Criar uma instância EC2
@@ -32,7 +34,7 @@ sudo service codedeploy-agent status
 
 ## Passo 2: Preparar a aplicação
 
-1. Obter o código fonte de https://github.com/mvneves/codedeploy-example
+1. Obter o código fonte de [https://github.com/mvneves/codedeploy-example](https://github.com/miguelxvr/aws-deploy-labs)
 2. Gerar um arquivo .zip contendo o conteúdo do repositório e fazer upload em um bucket do S3 (Obs: pode usar a opção de **Download ZIP** do GitHub).
 
 ## Passo 3: Configurar o serviço CodeDeploy
